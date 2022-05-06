@@ -188,15 +188,12 @@ const app = Vue.createApp({
 			// list of experience items to loop through it
 			experienceItems: [
 				{
-					date: "2020",
-					companyName: { en: "Group Rhinos", ar: "شركة جوجل" },
-					jobTitle: {
-						en: "Full Stack Developer",
-						ar: "مطور الواجهة الأمامية",
-					},
+					date: "2017",
+					companyName: { en: "Ranglerz Digital Marketing", ar: "شركة انفاتو" },
+					jobTitle: { en: "Laravel & Vue.js Developer", ar: "مطور UI/UX" },
 					desc: {
-						en: "Aggregated proficient understanding of full software development lifecycle, front/back-end development best practices, and agile methodologies to write sustainable code for user-side applications, including visual elements and overall layout of websites and mobile applications.",
-						ar: "مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.",
+						en: "Supported senior software developers with development, maintenance, and continuous improvement for enterprise-level web applications and existing systems",
+						ar: "تم تحويل تخطيطات Photoshop إلى صفحات ويب باستخدام HTML و CSS و JavaScript.",
 					},
 				},
 				{
@@ -212,38 +209,20 @@ const app = Vue.createApp({
 					},
 				},
 				{
-					date: "2017",
-					companyName: { en: "Ranglerz Digital Marketing", ar: "شركة انفاتو" },
-					jobTitle: { en: "Laravel & Vue.js Developer", ar: "مطور UI/UX" },
-					desc: {
-						en: "Supported senior software developers with development, maintenance, and continuous improvement for enterprise-level web applications and existing systems",
-						ar: "تم تحويل تخطيطات Photoshop إلى صفحات ويب باستخدام HTML و CSS و JavaScript.",
-					},
-				},
-				{
 					date: "2020",
-					companyName: { en: "Google Inc.", ar: "شركة جوجل" },
+					companyName: { en: "Group Rhinos", ar: "شركة جوجل" },
 					jobTitle: {
-						en: "Front-End Developer",
+						en: "Full Stack Developer",
 						ar: "مطور الواجهة الأمامية",
 					},
 					desc: {
-						en: "Monitored technical aspects of the front-end delivery for projects.",
+						en: "Aggregated proficient understanding of full software development lifecycle, front/back-end development best practices, and agile methodologies to write sustainable code for user-side applications, including visual elements and overall layout of websites and mobile applications.",
 						ar: "مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.",
 					},
 				},
-				{
-					date: "2021",
-					companyName: { en: "Facebook Inc.", ar: "شركة فيسبوك" },
-					jobTitle: {
-						en: "Full Stack Developer",
-						ar: "مطوّر الويب المتكامل",
-					},
-					desc: {
-						en: "Collaborate with creative and development teams on the execution of ideas.",
-						ar: "تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.",
-					},
-				},
+				
+				
+				
 			],
 
 			// current page of portfolio items
